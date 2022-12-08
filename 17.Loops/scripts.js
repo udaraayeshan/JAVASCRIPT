@@ -29,12 +29,14 @@ for(var i=10; i>0; i--){
 
 // Iterate an array
 var students = ['Namal','Kumara','Dasun','Sachini','John'];
-for(var i = 0; i < students.length; i++){
+for(var i = 0; i < students.length; i++){   
     console.log(students[i]);
 }
 
 // --For/In Loop--
 // The JavaScript for/in statement loops through the properties of an object
+//object ekaka value ganima bawitha karayi
+
 var person = {fname:"Chamara", lname:"Silva", age:25};
 var i;
 for(i in person){
@@ -43,8 +45,11 @@ for(i in person){
 
 // --For/Of Loop--
 // For/of lets you loop over data structures that are iterable such as Arrays, Strings, Maps, NodeLists, and more.
-var fullName = 'Chamara Perera';
-var j;
+//Arrays ,strings, iterrit kara ganimata bawitha karayi
+
+var fullName = 'Chamara Perera';    //c
+                                    //h
+var j;                              //a.... digata enawa
 for(j of fullName){
     console.log(j);
 }
@@ -53,14 +58,14 @@ for(j of fullName){
 var marks = [33,55,66,88,22];
 var k = 0;
 while(k < marks.length){
-    console.log(marks[k]);
+    console.log(marks[k]); //condition eka mulin
     k++;
 }
 
 // --Do-While Loop--
 var l = 10;
 do{
-    console.log(l);
+    console.log(l);  //condition eka passe
     l--;
 }while(l >= 1);
 
@@ -70,14 +75,16 @@ var data = ['Saman','Galle',1996,'Maths',true,'Chocolate'];
 
 // Continue
 // If a specified condition occurs, and continues with the next iteration in the loop.
+
+
 for(var i = 0; i < data.length; i++){
-    if(typeof(data[i]) !== 'string') continue;
+    if(typeof(data[i]) !== 'string') continue;  //true nam digatama continue wenawa anith ewa skip karanawa
     console.log(data[i]);
 }
 
 // Break
 // Breaks the loop and continues executing the code after the loop (if any)
 for(var i = 0; i < data.length; i++){
-    if(typeof(data[i]) !== 'string') break;
+    if(typeof(data[i]) !== 'string') break;  //string nowana value ekak hamu wuna gaman loop eka nawathinawa
     console.log(data[i]);
 }

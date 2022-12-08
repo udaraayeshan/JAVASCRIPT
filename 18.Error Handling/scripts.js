@@ -35,10 +35,11 @@ function findLargest(a, b, c){
         }
     }
     catch(err){
-        console.log(err);
+        console.log(err);  // error eka handle karanawa
     }
     finally{
-        console.log("Input values are "+a+", "+b+" and "+c);
+        console.log("Input values are "+a+", "+b+" and "+c); //try ,catch ekak excute nowunath me aniwaren excute wenawa
+                                                             //input karapu value tika pennanawa
     }
 }
 

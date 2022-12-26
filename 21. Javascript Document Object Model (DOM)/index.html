@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOM</title>
     <style>
         /*Reset*/
          *{
@@ -70,6 +69,7 @@
          
 
     </style>
+    
 </head>
 <body>
     <!--Navigation-->
@@ -80,7 +80,7 @@
     <!-- container -->
     <div class="container">
         <div class="frm">
-           <h3 id="frmt">Add Items</h3>
+        <h3 style="text-transform:uppercase" id="frmt">Add Items</h3>
            <form action="">
                <input type="text">
                <select>
@@ -95,15 +95,17 @@
         <div class="list">
             <h3>Shopping Items</h3>
             <ul id="li-items">
-              <li>item 1</li>
-              <li>item 2</li>
-              <li>item 3</li>
-              <li>item 4</li>
-              <li>item 5</li>
+              <li class="items">item 1</li>
+              <li class="items">item 2</li>
+              <li class="items">item 3</li>
+              <li class="items">item 4</li>
+              <li class="items">item 5</li>
            </ul>
 
         </div>
-    </div>    
+    </div>
 
+    <!-- external JS -->
+    <script src="./script1.js"></script>
 </body>
 </html>
